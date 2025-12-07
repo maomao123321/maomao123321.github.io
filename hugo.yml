@@ -1,5 +1,5 @@
 baseURL: "https://maomao123321.github.io/"
-title: "Lei Mao | ML Systems & Market"
+title: "Lei Mao | AI Inference & Market"
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -32,11 +32,11 @@ params:
 menu:
   main:
     - identifier: inference
-      name: "AI Inference"
+      name: "Inference Engineering"
       url: "/inference/"
       weight: 10
     - identifier: finance
-      name: "Market Analysis"
+      name: "Inference Market"
       url: "/finance/"
       weight: 20
     - identifier: about
