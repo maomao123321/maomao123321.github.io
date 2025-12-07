@@ -1,0 +1,46 @@
+baseURL: "https://maomao123321.github.io/"
+title: "Lei Mao | ML Systems & Market"
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: "I am Lei Mao, a ML engineer specializing in AI inference optimization and architecture design. Also focused on market analysis in the inference and computing power."
+
+  
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/lei-mao-lm/"
+    - name: github
+      url: "https://github.com/maomao123321"
+
+
+menu:
+  main:
+    - identifier: inference
+      name: "AI Inference"
+      url: "/inference/"
+      weight: 10
+    - identifier: finance
+      name: "Market Analysis"
+      url: "/finance/"
+      weight: 20
+    - identifier: about
+      name: "About Me"
+      url: "/about/"
+      weight: 30
+
