@@ -36,7 +36,7 @@ menu:
       url: "/inference/"
       weight: 10
     - identifier: finance
-      name: "Inference Market"
+      name: "Inference Market Analysis"
       url: "/finance/"
       weight: 20
     - identifier: about
