@@ -7,21 +7,18 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
-# 这里的设置让博客看起来很专业
 [params]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true # 代码块带复制按钮，Inference 博客标配
+  ShowCodeCopyButtons = true
 
-  # 首页简介
   [params.homeInfoParams]
     Title = "Hi there 👋"
     Content = "I am Lei Mao, a ML engineer specializing in AI inference optimization and architecture design. Also focused on market analysis in the inference and computing power."
 
-  # 社交链接（改成你的）
   [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/lei-mao-lm/"
@@ -30,17 +27,16 @@ buildExpired = false
     name = "github"
     url = "https://github.com/maomao123321"
 
-# ⚠️ 这里实现了你的“双板块”需求
 [menu]
   [[menu.main]]
     identifier = "inference"
-    name = "AI Inference Engineering"  # 板块 1：硬核技术
+    name = "AI Inference Engineering"
     url = "/inference/"
     weight = 10
 
   [[menu.main]]
     identifier = "finance"
-    name = "Inference Market Analysis" # 板块 2：财经/CoreWeave分析
+    name = "Inference Market Analysis"
     url = "/finance/"
     weight = 20
 
